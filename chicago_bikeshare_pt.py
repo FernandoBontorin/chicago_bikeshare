@@ -39,10 +39,11 @@ data_list = data_list[1:]
 
 input("Aperte Enter para continuar...")
 # TAREFA 2
-# TODO: Imprima o `gênero` das primeiras 20 linhas
+# Done: Imprima o `gênero` das primeiras 20 linhas
 
 print("\nTAREFA 2: Imprimindo o gênero das primeiras 20 amostras")
-
+for i in range(20 + 1):
+    print(data_list[i + 1][6])
 
 # Ótimo! Nós podemos pegar as linhas(samples) iterando com um for, e as colunas(features) por índices.
 # Mas ainda é difícil pegar uma coluna em uma lista. Exemplo: Lista com todos os gêneros
