@@ -26,8 +26,10 @@ print(data_list[1])
 
 input("Aperte Enter para continuar...")
 # TAREFA 1
-# TODO: Imprima as primeiras 20 linhas usando um loop para identificar os dados.
+# Done: Imprima as primeiras 20 linhas usando um loop para identificar os dados.
 print("\n\nTAREFA 1: Imprimindo as primeiras 20 amostras")
+for i in range(20 + 1):
+    print(data_list[i + 1])
 
 # Vamos mudar o data_list para remover o cabeçalho dele.
 data_list = data_list[1:]
